@@ -139,7 +139,7 @@
 
         <!-- <Footer> -->
             <footer class="text-center py-2 border-top">
-                <span class="text-muted">&copy; OGUNDEKO OLUWASEUN, 2024.</span>
+                <span class="mb-3 mb-md-0 text-muted">Ogundeko Oluwaseun &copy;<span id="copyright-year"></span>.</span>
             </footer>
 
 
@@ -154,5 +154,10 @@
 
         <!-- Template Main JS File -->
         <script src="assets/js/main.js"></script>
+
+        <!-- Copyright -->
+         <script>
+         document.getElementById("copyright-year").textContent = new Date().getFullYear();
+         </script>
     </body>
 </html>
